@@ -1,6 +1,16 @@
 import { extendTheme } from '@chakra-ui/react';
 
 export const theme = extendTheme({
+  textStyles: {
+    h1: {
+      // you can also use responsive styles
+      fontSize: ["36px"],
+      fontWeight: "bold",
+    },
+    h2: {
+      fontSize: ["20px"],
+    },
+  },
   colors: {
     gray: {
       "900": "#181B23",
