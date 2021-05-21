@@ -1,13 +1,21 @@
-import { Banner } from '../components/Home/banner'
-import { Travel } from '../components/Home/travel';
-import { Flex, Text, Box, Image, HStack } from "@chakra-ui/react";
+import { Banner } from '../components/Home/Banner'
+import { Travel } from '../components/Home/Travel';
+import { Flex, Text, Box, Image, HStack, Divider, Center } from "@chakra-ui/react";
 
 export default function Home() {
   return (
     <>
       <Banner />
+      <Travel />
+
       <Flex align="center" justify="center">
-        <Travel />
+        <Flex w="1240px" justify="center">
+          <Box align="center">
+            <Text textStyle="h1">Vamos nessa?</Text>
+            <Text textStyle="h1">Então escolha seu continente</Text>
+          </Box>
+
+        </Flex>
       </Flex>
     </>
   )
