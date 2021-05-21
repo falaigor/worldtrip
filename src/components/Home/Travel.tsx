@@ -3,7 +3,7 @@ import { TravelTypeItem } from "../Home/TravelTypeItem";
 
 export function Travel() {
   return (
-    <Flex w="100%">
+    <Flex align="center" justify="center">
       <HStack
         w="1240px"
         m="80px"
